@@ -450,6 +450,15 @@ const Terminal = () => {
                 };
                 break;
 
+            case "welcome":
+                commandEntry.output = {
+                    type: "welcome",
+                    command: cmd,
+                    text: []
+                };
+                break;
+
+
             default:
                 commandEntry.output = {
                     type: "command",
@@ -638,6 +647,13 @@ const Terminal = () => {
                                                 ))}
                                             </div>
                                         )}
+                                        {
+                                            item.output.type === "welcome" && (
+                                                <div className="mt-2">
+                                                    <TerminalWelcomeMessage/>
+                                                </div>
+                                            )
+                                        }
                                     </div>
                                 )}
                             </>

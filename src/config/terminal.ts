@@ -31,12 +31,12 @@ export interface ITerminal {
     customCommands?: { [key: string]: ICustomCommand };
     prompt: string;
     usages: Array<{
-       command: string;
-       description: string;
+        command: string;
+        description: string;
     }>;
     tips: Array<{
-       name: string;
-       description: string;
+        name: string;
+        description: string;
     }>;
 }
 
@@ -53,7 +53,7 @@ export const terminal: ITerminal = {
     hostname: "GameCrafters",
     theme: "light",
     commands: [
-        "help", "neofetch", "clear", "ls", "pwd", "history", "date", "cd"
+        "help", "neofetch", "clear", "ls", "pwd", "history", "date", "cd", "welcome"
     ],
     customCommands: {
         // "example": {
