@@ -12,6 +12,7 @@ const Terminal = () => {
     const [output, setOutput] = useState<any[]>([]);
     const [commandHistory, setCommandHistory] = useState<string[]>([]);
     const [historyIndex, setHistoryIndex] = useState(-1);
+    const [showWelcome, setShowWelcome] = useState(true);
     const navigate = useNavigate();
     const inputRef = useRef<HTMLInputElement>(null);
     const terminalRef = useRef<HTMLDivElement>(null);
@@ -187,15 +188,15 @@ const Terminal = () => {
                         "Use 'info <command>' to find out more about the command in general.\n",
                         "Use 'man -k' or 'info' to find out more about commands not in this list.\n",
                         "A star (*) next to a name means that the command is unavailable\n\n",
-                        "╭─ SYSTEM & INFORMATION ────────────────────┬─ NAVIGATION & FILES ───────────────────╮",
-                        "│                                           │                                        │",
-                        "│  neofetch     System overview w/ ASCII    │  cd [dir]     Change directory         │",
-                        "│  * whoami     Current user details        │  ls [OPTION] List directory            │",
-                        "│  * about      Developer biography         │  pwd          Current path             │",
-                        "│                                           │  * tree       Directory tree view      │",
-                        "│                                           │  * grep [pattern] Search in files      │",
-                        "│                                           │                                        │",
-                        "└───────────────────────────────────────────┴────────────────────────────────────────┘",
+                        "╭─ SYSTEM & INFORMATION ────────────────────┬─ NAVIGATION & FILES ────────────────────╮",
+                        "│                                           │                                         │",
+                        "│  neofetch     System overview w/ ASCII    │  cd [dir]     Change directory          │",
+                        "│  * whoami     Current user details        │  ls [OPTION] List directory             │",
+                        "│  * about      Developer biography         │  pwd          Current path              │",
+                        "│                                           │  * tree       Directory tree view       │",
+                        "│                                           │  * grep [pattern] Search in files       │",
+                        "│                                           │                                         │",
+                        "└───────────────────────────────────────────┴─────────────────────────────────────────┘",
                         "",
                         "╭─ UTILITIES & PRODUCTIVITY ──────────────────────────────────────────────────────────╮",
                         "│                                                                                     │",
@@ -489,6 +490,7 @@ const Terminal = () => {
             e.preventDefault();
             setOutput([]);
             setInput("");
+            setShowWelcome(false);
             return;
         }
 
@@ -508,6 +510,7 @@ const Terminal = () => {
                 setInput("");
             }
             setHistoryIndex(-1);
+            setShowWelcome(false);
         } else if (e.key === "ArrowUp") {
             e.preventDefault();
             if (historyIndex < commandHistory.length - 1) {
@@ -560,7 +563,7 @@ const Terminal = () => {
             onClick={() => inputRef.current?.focus()}
         >
             {/* Welcome message */}
-            {output.length === 0 && (
+            {showWelcome && output.length === 0 && (
                 <TerminalWelcomeMessage/>
             )}
 
