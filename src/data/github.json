@@ -1,0 +1,370 @@
+{
+    "lastUpdated": "2025-09-04T02:10:33.170Z",
+    "user": {
+        "login": "donaldturinglee",
+        "name": "Donald Lee",
+        "bio": "Regain lost courage",
+        "public_repos": 8,
+        "followers": 0,
+        "following": 0,
+        "avatar_url": "https://avatars.githubusercontent.com/u/148842434?v=4"
+    },
+    "repositories": [
+        {
+            "name": "donaldturinglee.github.io",
+            "description": null,
+            "html_url": "https://github.com/donaldturinglee/donaldturinglee.github.io",
+            "homepage": null,
+            "language": "HTML",
+            "primaryLanguages": [
+                "HTML"
+            ],
+            "stargazers_count": 0,
+            "forks_count": 0,
+            "created_at": "2025-09-03T14:22:32Z",
+            "modified_at": "2025-09-04T02:00:31Z",
+            "pushed_at": "2025-09-04T02:00:27Z",
+            "topics": [],
+            "license": null,
+            "isPrivate": false,
+            "isFork": false,
+            "isArchived": false,
+            "languages": [
+                "HTML"
+            ]
+        },
+        {
+            "name": "terminal_portfolio",
+            "description": null,
+            "html_url": "https://github.com/donaldturinglee/terminal_portfolio",
+            "homepage": null,
+            "language": null,
+            "primaryLanguages": [],
+            "stargazers_count": 0,
+            "forks_count": 0,
+            "created_at": "2025-09-03T17:02:53Z",
+            "modified_at": "2025-09-03T17:38:04Z",
+            "pushed_at": "2025-09-03T17:38:01Z",
+            "topics": [],
+            "license": null,
+            "isPrivate": false,
+            "isFork": false,
+            "isArchived": false,
+            "languages": []
+        },
+        {
+            "name": "potplayer_subtitle_translate_deepl",
+            "description": "Integrate DeepL for real-time translation of PotPlayer subtitles",
+            "html_url": "https://github.com/donaldturinglee/potplayer_subtitle_translate_deepl",
+            "homepage": "",
+            "language": "AngelScript",
+            "primaryLanguages": [
+                "AngelScript"
+            ],
+            "stargazers_count": 46,
+            "forks_count": 5,
+            "created_at": "2024-03-17T07:29:43Z",
+            "modified_at": "2025-09-02T07:13:38Z",
+            "pushed_at": "2025-06-19T05:42:19Z",
+            "topics": [],
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "isPrivate": false,
+            "isFork": false,
+            "isArchived": false,
+            "languages": [
+                "AngelScript"
+            ]
+        },
+        {
+            "name": "webpack_create_react_app",
+            "description": null,
+            "html_url": "https://github.com/donaldturinglee/webpack_create_react_app",
+            "homepage": null,
+            "language": "JavaScript",
+            "primaryLanguages": [
+                "JavaScript",
+                "HTML"
+            ],
+            "stargazers_count": 0,
+            "forks_count": 0,
+            "created_at": "2025-08-29T04:57:16Z",
+            "modified_at": "2025-08-30T15:12:02Z",
+            "pushed_at": "2025-08-30T15:11:58Z",
+            "topics": [],
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "isPrivate": false,
+            "isFork": false,
+            "isArchived": false,
+            "languages": [
+                "JavaScript",
+                "TypeScript",
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "name": "donaldturinglee",
+            "description": null,
+            "html_url": "https://github.com/donaldturinglee/donaldturinglee",
+            "homepage": null,
+            "language": null,
+            "primaryLanguages": [],
+            "stargazers_count": 3,
+            "forks_count": 0,
+            "created_at": "2023-10-24T05:45:45Z",
+            "modified_at": "2025-08-10T01:08:13Z",
+            "pushed_at": "2025-07-24T15:19:47Z",
+            "topics": [],
+            "license": null,
+            "isPrivate": false,
+            "isFork": false,
+            "isArchived": false,
+            "languages": []
+        },
+        {
+            "name": "copilotbox-app",
+            "description": "An open-source, modern-design AI chat app",
+            "html_url": "https://github.com/donaldturinglee/copilotbox-app",
+            "homepage": "",
+            "language": "TypeScript",
+            "primaryLanguages": [
+                "TypeScript",
+                "JavaScript"
+            ],
+            "stargazers_count": 0,
+            "forks_count": 0,
+            "created_at": "2025-01-07T13:21:14Z",
+            "modified_at": "2025-06-29T09:50:09Z",
+            "pushed_at": "2025-01-07T14:45:46Z",
+            "topics": [],
+            "license": {
+                "key": "gpl-3.0",
+                "name": "GNU General Public License v3.0",
+                "spdx_id": "GPL-3.0",
+                "url": "https://api.github.com/licenses/gpl-3.0",
+                "node_id": "MDc6TGljZW5zZTk="
+            },
+            "isPrivate": false,
+            "isFork": false,
+            "isArchived": false,
+            "languages": [
+                "TypeScript",
+                "Kotlin",
+                "Objective-C",
+                "JavaScript",
+                "Ruby",
+                "Objective-C++"
+            ]
+        },
+        {
+            "name": "sundae_ui_react",
+            "description": null,
+            "html_url": "https://github.com/donaldturinglee/sundae_ui_react",
+            "homepage": null,
+            "language": "TypeScript",
+            "primaryLanguages": [
+                "TypeScript",
+                "JavaScript"
+            ],
+            "stargazers_count": 0,
+            "forks_count": 0,
+            "created_at": "2025-05-18T10:04:47Z",
+            "modified_at": "2025-05-19T15:56:10Z",
+            "pushed_at": "2025-05-19T15:56:06Z",
+            "topics": [],
+            "license": null,
+            "isPrivate": false,
+            "isFork": false,
+            "isArchived": false,
+            "languages": [
+                "TypeScript",
+                "JavaScript",
+                "MDX"
+            ]
+        },
+        {
+            "name": "note",
+            "description": null,
+            "html_url": "https://github.com/donaldturinglee/note",
+            "homepage": null,
+            "language": null,
+            "primaryLanguages": [],
+            "stargazers_count": 0,
+            "forks_count": 0,
+            "created_at": "2025-05-17T09:50:58Z",
+            "modified_at": "2025-05-17T09:50:58Z",
+            "pushed_at": "2025-05-17T09:50:58Z",
+            "topics": [],
+            "license": null,
+            "isPrivate": false,
+            "isFork": false,
+            "isArchived": false,
+            "languages": []
+        }
+    ],
+    "stats": {
+        "totalRepos": 8,
+        "totalStars": 49,
+        "totalForks": 5,
+        "languages": [
+            "HTML",
+            "AngelScript",
+            "JavaScript",
+            "TypeScript"
+        ],
+        "allLanguages": [
+            "AngelScript",
+            "HTML",
+            "JavaScript",
+            "TypeScript"
+        ]
+    },
+    "featured": [
+        {
+            "name": "potplayer_subtitle_translate_deepl",
+            "description": "Integrate DeepL for real-time translation of PotPlayer subtitles",
+            "html_url": "https://github.com/donaldturinglee/potplayer_subtitle_translate_deepl",
+            "homepage": "",
+            "language": "AngelScript",
+            "primaryLanguages": [
+                "AngelScript"
+            ],
+            "stargazers_count": 46,
+            "forks_count": 5,
+            "created_at": "2024-03-17T07:29:43Z",
+            "modified_at": "2025-09-02T07:13:38Z",
+            "pushed_at": "2025-06-19T05:42:19Z",
+            "topics": [],
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "isPrivate": false,
+            "isFork": false,
+            "isArchived": false,
+            "languages": [
+                "AngelScript"
+            ]
+        },
+        {
+            "name": "copilotbox-app",
+            "description": "An open-source, modern-design AI chat app",
+            "html_url": "https://github.com/donaldturinglee/copilotbox-app",
+            "homepage": "",
+            "language": "TypeScript",
+            "primaryLanguages": [
+                "TypeScript",
+                "JavaScript"
+            ],
+            "stargazers_count": 0,
+            "forks_count": 0,
+            "created_at": "2025-01-07T13:21:14Z",
+            "modified_at": "2025-06-29T09:50:09Z",
+            "pushed_at": "2025-01-07T14:45:46Z",
+            "topics": [],
+            "license": {
+                "key": "gpl-3.0",
+                "name": "GNU General Public License v3.0",
+                "spdx_id": "GPL-3.0",
+                "url": "https://api.github.com/licenses/gpl-3.0",
+                "node_id": "MDc6TGljZW5zZTk="
+            },
+            "isPrivate": false,
+            "isFork": false,
+            "isArchived": false,
+            "languages": [
+                "TypeScript",
+                "Kotlin",
+                "Objective-C",
+                "JavaScript",
+                "Ruby",
+                "Objective-C++"
+            ]
+        }
+    ],
+    "byLanguage": {
+        "AngelScript": [
+            {
+                "name": "potplayer_subtitle_translate_deepl",
+                "description": "Integrate DeepL for real-time translation of PotPlayer subtitles",
+                "html_url": "https://github.com/donaldturinglee/potplayer_subtitle_translate_deepl",
+                "homepage": "",
+                "language": "AngelScript",
+                "primaryLanguages": [
+                    "AngelScript"
+                ],
+                "stargazers_count": 46,
+                "forks_count": 5,
+                "created_at": "2024-03-17T07:29:43Z",
+                "modified_at": "2025-09-02T07:13:38Z",
+                "pushed_at": "2025-06-19T05:42:19Z",
+                "topics": [],
+                "license": {
+                    "key": "mit",
+                    "name": "MIT License",
+                    "spdx_id": "MIT",
+                    "url": "https://api.github.com/licenses/mit",
+                    "node_id": "MDc6TGljZW5zZTEz"
+                },
+                "isPrivate": false,
+                "isFork": false,
+                "isArchived": false,
+                "languages": [
+                    "AngelScript"
+                ]
+            }
+        ],
+        "TypeScript": [
+            {
+                "name": "copilotbox-app",
+                "description": "An open-source, modern-design AI chat app",
+                "html_url": "https://github.com/donaldturinglee/copilotbox-app",
+                "homepage": "",
+                "language": "TypeScript",
+                "primaryLanguages": [
+                    "TypeScript",
+                    "JavaScript"
+                ],
+                "stargazers_count": 0,
+                "forks_count": 0,
+                "created_at": "2025-01-07T13:21:14Z",
+                "modified_at": "2025-06-29T09:50:09Z",
+                "pushed_at": "2025-01-07T14:45:46Z",
+                "topics": [],
+                "license": {
+                    "key": "gpl-3.0",
+                    "name": "GNU General Public License v3.0",
+                    "spdx_id": "GPL-3.0",
+                    "url": "https://api.github.com/licenses/gpl-3.0",
+                    "node_id": "MDc6TGljZW5zZTk="
+                },
+                "isPrivate": false,
+                "isFork": false,
+                "isArchived": false,
+                "languages": [
+                    "TypeScript",
+                    "Kotlin",
+                    "Objective-C",
+                    "JavaScript",
+                    "Ruby",
+                    "Objective-C++"
+                ]
+            }
+        ]
+    }
+}
